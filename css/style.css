@@ -1,0 +1,208 @@
+	* {
+		box-sizing: border-box;
+	}
+
+	body {
+		font-family: "Source Sans Pro";
+		font-size: 15px;
+		width: 100%;
+	}
+
+	footer {
+		background-color: black;
+		padding: 1.6666em 1.6666em;
+		clear: both;
+	}
+
+	header {
+		background-color: black;
+		border-bottom: .3333em solid yellow;
+		padding: .6666em .6666em;
+	}
+
+	h1 {
+		color: yellow;
+		font-family: "Merriweather", serif;
+		font-size: 2em;
+		float: left;
+		line-height: 50px;
+	}
+
+	h2 {
+		font-size: 2em;
+		font-weight: bold;
+		margin-bottom: .3333em;
+	}
+
+	h3 {
+		font-family: "Merriweather", serif;
+		font-size: 1.6666em;
+		padding-bottom: .3333em;
+	}
+
+	nav a { 
+		color: white;
+		text-decoration: none;
+		line-height: 50px;
+		padding-left: .6666em;
+		padding-right: .6666em;
+		float: right;
+	
+	}
+
+	blockquote{
+		font-family: "Merriweather", serif;
+		font-size: 1.6666em;
+		background-color: #C6C6C6;
+		text-align: center;
+		padding: 1em 0 1em 0px;
+	}
+
+	.are {
+		border-bottom: .2em solid yellow;
+	}
+	
+	.button {
+		display: block;
+		  height: 3.3333em;
+		  line-height: 50px;
+		  text-transform: uppercase;
+		  text-decoration: none;
+		  text-align: center;
+		  font-family: "Oswald";
+		  color: black;
+		  border-radius: 5px;
+		  background-color: #cccccc;
+		  box-shadow: 0 5px 0 0 gray;
+		  margin-bottom: 5px;
+		  margin: 2.6666em;
+	}
+
+	.col{
+		float: left;
+		width: 33.3333%;
+		background-color: #ecf0f1;
+		padding: 1.6666em;
+	}
+
+	.col2 {
+		border-left: .0666em solid grey;
+		border-right: .0666em solid grey;
+	}
+
+	.foot {
+		color: white;
+	}
+
+	.taste {
+		color: gray;
+		text-decoration: line-through;
+	}	
+
+	.hero {
+		background-image: url("../images/coworking.jpg");
+		background-size: cover;
+		background-position: center;
+		text-align: right;
+	
+	}	
+
+	.meet { 
+		background: rgba(211,211,211,0.9);
+		width: 40%;
+		display: inline-block;
+		margin: 2em 2em;
+		padding: 2em 2em;
+		text-align: left;
+
+	}
+
+	.profile {
+		background-color: yellow;
+	}
+
+	.clearfix:after { 
+  		content: " ";
+  		display: block; 
+  		clear: both;
+
+  	}
+
+  	#menu {
+  		display: none;
+  		color: yellow;
+  	}
+
+  	@media only screen and (max-width: 800px) {
+
+  		body {
+  			font-size: 14px;
+  		}
+
+  		h1, .col {
+  			float: none;
+  			width: auto;
+  		}
+
+  		header {
+  			text-align: center;
+  		}
+
+  		 nav a {
+		    float: none;
+		    width: auto;
+		    font-size: 1em;
+		    display: none;
+  		}
+
+  		 nav:hover a {
+		    display: block;
+
+  		}
+
+  		.col {
+  			border-bottom: .06666em solid black;
+  		}
+
+		#menu {
+		    display: block;
+		    font-size: 2em;
+		    padding: 0;
+		    background-color: black;
+
+		}
+
+		.hero {
+			text-align: center;
+		}   
+
+		.meet {
+			text-align: center;
+			width: 70%;
+			padding-bottom: 0;
+		  	
+  			}
+
+  		.prompt {
+  			width: 50%;
+  			margin: 1em auto 1em auto;
+  		}	
+
+  		.col {
+  			text-align: center;
+  		}	
+  		}
+
+  		@media only screen and (min-width: 1300px) {
+  			body {
+  				font-size: 17px;
+  			
+  			}
+
+  			.meet {
+  				width: 30%;
+  				padding-bottom: 0;
+  			}
+
+  	}
+
