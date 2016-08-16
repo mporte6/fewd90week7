@@ -40,14 +40,14 @@
 		padding-bottom: .3333em;
 	}
 
-	nav a { 
+	nav a {
 		color: white;
 		text-decoration: none;
 		line-height: 50px;
 		padding-left: .6666em;
 		padding-right: .6666em;
 		float: right;
-	
+
 	}
 
 	blockquote{
@@ -58,10 +58,16 @@
 		padding: 1em 0 1em 0px;
 	}
 
+    .container {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 	.are {
 		border-bottom: .2em solid yellow;
 	}
-	
+
 	.button {
 		display: block;
 		  height: 3.3333em;
@@ -78,10 +84,14 @@
 		  margin: 2.6666em;
 	}
 
-	.col{
+    .columns {
+        background-color: #ecf0f1;
+        padding: 30px;
+    }
+
+	.col {
 		float: left;
 		width: 33.3333%;
-		background-color: #ecf0f1;
 		padding: 1.6666em;
 	}
 
@@ -97,17 +107,17 @@
 	.taste {
 		color: gray;
 		text-decoration: line-through;
-	}	
+	}
 
 	.hero {
 		background-image: url("../images/coworking.jpg");
 		background-size: cover;
 		background-position: center;
 		text-align: right;
-	
-	}	
 
-	.meet { 
+	}
+
+	.meet {
 		background: rgba(211,211,211,0.9);
 		width: 40%;
 		display: inline-block;
@@ -121,9 +131,9 @@
 		background-color: yellow;
 	}
 
-	.clearfix:after { 
+	.clearfix:after {
   		content: " ";
-  		display: block; 
+  		display: block;
   		clear: both;
 
   	}
@@ -174,29 +184,29 @@
 
 		.hero {
 			text-align: center;
-		}   
+		}
 
 		.meet {
 			text-align: center;
 			width: 70%;
 			padding-bottom: 0;
-		  	
+
   			}
 
   		.prompt {
   			width: 50%;
   			margin: 1em auto 1em auto;
-  		}	
+  		}
 
   		.col {
   			text-align: center;
-  		}	
   		}
+  	}
 
   		@media only screen and (min-width: 1300px) {
   			body {
   				font-size: 17px;
-  			
+
   			}
 
   			.meet {
@@ -205,4 +215,3 @@
   			}
 
   	}
-
